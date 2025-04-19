@@ -1,0 +1,104 @@
+/* Importing Google Fonts */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0d47a1;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar nav a:hover {
+  color: #cfd8dc;
+}
+
+.nav-logo {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.hero-text h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #0d47a1;
+}
+
+.hero-text p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.hero-image img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0d47a1;
+  margin-top: 20px;
+}
+
+/* General Section Styling */
+.section {
+  padding: 50px 40px;
+  background-color: #e3f2fd;
+  margin-bottom: 10px;
+}
+
+.section:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.section h2 {
+  color: #0d47a1;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.section-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section-content li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9rem;
+}
